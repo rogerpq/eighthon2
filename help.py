@@ -7,7 +7,7 @@ commands = '''
 '''
 soursce = '''
 `- -- -- -- -- -- -- -- --`
-**oothon source is working ⚡
+**eighthon source is working ⚡
 Dev : @S_Z_H , @E_7_V
 Source Ch : @Eighthon
 الـسـورس يـعـمـل بـنـجـاح
