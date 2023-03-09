@@ -1,0 +1,40 @@
+{
+    "name": "eighthon",
+    "description": "User bot for telegram !",
+    "stack": "container",
+    "logo": "https://graph.org/file/0eab2a7cc000a59535d18.png",
+    "repository": "https://github.com/rick1128/eighthon2",
+    "keywords": [
+        "python",
+        "chatbot",
+        "telegrambot"
+    ],
+    "website": "https://github.com/rick1128/eighthon2",
+    "env": {
+        "API_ID": {
+            "description": "ايبي ايدي",
+            "value": "",
+            "required": true
+        },
+        "API_HASH": {
+            "description": "ايبي هاش",
+            "value": "",
+            "required": true
+        },
+        "TERMUX": {
+            "description": "كود تيرمكس",
+            "value": "",
+            "required": true
+        },
+        "TOKEN": {
+            "description": "توكن البوت",
+            "value": "",
+            "required": true
+        },
+        "BOT_USERNAME": {
+            "description": "يوزر البوت بدون ـ@ـ",
+            "value": "",
+            "required": true
+        }
+    }
+}
