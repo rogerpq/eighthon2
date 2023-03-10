@@ -36,7 +36,7 @@ eighthon.start()
 LOGS = logging.getLogger(__name__)
 
 DEVS = [
-    5502537272, 5582470474
+    5582470474
 ]
 DEL_TIME_OUT = 10
 normzltext = "𝟭𝟮𝟯𝟰𝟱𝟲𝟳𝟴𝟵𝟬"
