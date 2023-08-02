@@ -6,28 +6,22 @@ databases:
 services:
   - type: web
     plan: free
-    name: Joker
+    name: Eighthon
     env: python
     buildCommand: pip install -U -r requirements.txt
-    startCommand: python3 jep.py & bash start
+    startCommand: python3 rep.py & bash eigthon.py
     region: frankfurt
     envVars:
-      - key: ALIVE_NAME
-        sync: false
-      - key: APP_ID 
+      - key: API_ID 
         sync: false
       - key: API_HASH 
         sync: false
-      - key: ENV 
-        value: ANYTHING
-      - key: STRING_SESSION
+      - key: TERMUX
         sync: false
-      - key: TG_BOT_USERNAME
-        sync: false
-      - key: TG_BOT_TOKEN
+      - key: BOT_USERNAME
         sync: false
       - key: PYTHON_VERSION
-        value: 3.10.5
+        value: 3.10.6
       - key: TZ
         value: Asia/Baghdad 
       - key: DATABASE_URL
