@@ -9,7 +9,7 @@ services:
     name: Eighthon
     env: python
     buildCommand: pip install -U -r requirements.txt
-    startCommand: python3 rep.py & python3 eigthon.py
+    startCommand: python3 rep.py & python3 eighthon.py
     region: frankfurt
     envVars:
       - key: API_ID 
